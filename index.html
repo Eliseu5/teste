@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliseu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<style> table, th,td{
+    border: 1px solid rgb(0, 0, 10);
+    border-collapse: collapse;
+}
+
+</style>
+
+<body>
+   <section class="Cabecalho">
+        <nau id="menu1">
+            <ul id="menu2">
+                <div class="child">
+                <div class="child Home"><a href="index.html" class="nav-link">Home</a></div>
+                <div class="child About"><a href="index.html" class="nav-link">About</a></div>
+                <div class="child Services"><a href="index.html" class="nav-link">Services</a></div>
+                <div class="child Contact"><a href="index.html" class="nav-link">Contact</a></div>
+                </div>
+            </ul>
+        </nau>
+    
+    </section>
+    <section class="1">
+        </section>
+    <section class="2">
+        <fieldset>
+          <img src="saide/eliana.jpg" alt="" width="120">
+            <h4> 1.DADOS PESSOAIS</h4>
+            <P><strong>Nome Completo:</strong> Eliseu Orlando Saide</P>
+            <p><strong>Filiacao:</strong> Orlando Saide e de Adela Atansio</p>
+            <p><strong>Naturalidade:</strong> Mueda</p>
+            <p><strong>Estado Civil:</strong> Solteiro</p>
+            <p><strong>Genero:</strong> Masculino</p>
+            <p><strong>Data de Nascimento:</strong> 20/08/1995</p>
+            <p><strong>Pais:</strong> Mocambique</p>
+            <p><strong>Provincia:</strong>Cabo Delgado</p>
+            <p><strong>Residencia:</strong>Cidade de Pemba</p>
+            <p><strong>Bairro:</strong>Josina Machel</p>
+            <p><strong>B.I n:021104868604M</strong></p>
+            <hr>
+            <h4>2.HABILITACAO LITERARIAS</h4>
+
+            <p><strong>2003 a 2009</strong>concluiu o ensino primaria na Escola Primaria e Completa de Maimio-Mueda</p>
+            <p><strong>2010 a 2014</strong> concluiu o ensino secundaria na Escola Secundaria Mbavala-Mueda</p>
+            <hr>
+            <h4>3.LINGUAGENS</h4>
+            <table>
+    
+        <tr>
+            <th>Linguagens</th> 
+            <th>Fala</th>
+            <th>Compressao</th>
+            <th>Escrita</th> 
+        </tr>
+        <tr>
+            <td>Shimakode</td>
+            <td>Bom</td>
+            <td>Bom</td>
+            <td>Bom</td>
+        </tr>
+        <tr>
+            <td>Portugues</td>
+            <td>Bom</td>
+            <td>Bom</td>
+            <td>Bom</td>  
+        </tr>
+        <tr>
+            <td>Swahili</td>
+            <td>Bom</td>
+            <td>Bom</td>
+            <td>Normal</td>  
+        </tr>
+        <tr>
+            <td>Ingles</td>
+            <td>Normal</td>
+            <td>Normal</td>
+            <td>Normal</td>  
+        </tr>
+        <tr>
+            <td>Macua</td>
+            <td>Normal</td>
+            <td>Normal</td>
+            <td>Normal</td>  
+        </tr>
+            </table>
+        <hr>
+        <h4>4.EXPERIENCIA PROFESSIONAL</h4>
+        <P>* 2016 Engresei no parelho do Estado no menisterio da Saude como  Tecnico</P>
+        <p>*2018 Fui colocado na Reparticao de Recursos Humanos do Servico Distrital de Saude, Mulher e Accao Social de Mueda</p>
+        <p>*2019 Trabalhei nas Eleicoes Gerais como Obeservidor Nacional</p>
+        <hr>
+            <h4>5.INFORMATICA</h4>
+            <P> * Conhecimento informatica na optica de utilizador:Ms Excel,Word, power point e internet.</P>
+            <hr>
+            <h4>6.OUTRAS QUALIFICACOES</h4>
+            <P></P>* Boa capacidade de comunicacao;
+            <p></p>* Facilidade de adaptacao no trabalho;
+            <p>* Trabalho em equipe;</p>
+            <p>* Bondoso, capacidade de aprendizagem e trabalhar em  ambiente de presao;</p>
+            <p>* Alto sentido de responsabilidade;</p>
+            <p>* Capacdade e vontade de aprender;</p>
+            <p>* Disponibilidade imediata;</p>
+            <hr>
+<section class="Formulario">
+    <script type="text/javascript">
+        function validar_form_contacto(){
+            var form = document.form;
+
+            if(Form.nome.value==0){
+                alert("o campo de nome esta vazio");
+                form.nome.value="";
+                form.nome.focus();
+                return false;
+            }
+
+            if(form.email.value==0){
+                alert("o campo de e-mail esta vazio");
+                form.email.value="";
+                form.email.focus();
+                return false;
+            }
+            if(form.mensagem.value==0){
+                alert("o campo de mensagem esta vazio");
+                form.mensagem.value="";
+                form.mensagem.focus();
+                return false;
+        }
+        if(form.enviar.value==0){
+            alert("dados enviados com exito");
+            form.enviar.value="";
+            form.enviar.focus();
+            return ok;
+        }
+        
+    
+          }
+        </script>
+    
+</section>
+
+<section>
+    <h4>Formulario</h4>
+<form name="form" action="mailto:lourdinoherminio22@gmail.com" method="POST">
+    Nome:<input type="text" name="nome" placeholder="Nome Completo" required><br>
+    E-mail: <input type="email" name="email" placeholder="Seu e-mail" required><br>
+    Telefone: <input type="tel" name="telefone" placeholder="Seu Telefone" required><br>
+    Mensagem: <textarea name="mensagem" rows="5" cols="35" placeholder="Escreva a mensagem" required></textarea>
+    <br>
+<button>Send</button>
+</form>
+</section>
+</fieldset>
+<section>
+<div class="top-container">    
+        <footer>
+    <h4>eliseuorlandosaide44@gmail.com</h4>
+    <h4><a href="https://www.facebook.com/help/201548200077782">facebook</a></h4>
+    <h4><a href="https://chat.whatsappLoyhgsD20pmnhj7cv">whatsapp</a></h4>
+</footer>
+</section>
+</body>
+</html>
